@@ -1,0 +1,62 @@
+/* Shared Styles */
+
+#bg-color{
+background-color: black;
+color: white;
+}
+/* Starting of the styles of nav section */
+.First_part{
+      background: linear-gradient(0.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  }
+/* navbar styles */
+.main-topic{
+    font-family:Inter;
+    color: rgb(230, 83, 60);
+    font-size: 1.6rem;
+    font-weight: bolder;
+    /*height: 46px;*/
+
+}
+nav ul li{
+    list-style: none;
+    font-size: 1rem;
+    margin-right: 30px;
+    margin-left: 0%;
+    padding-left: 0%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 57px 190px;
+}
+#items{
+    display: flex;
+    border: 1px solid #2a2a2a;
+    padding-left: 4px;
+    padding-top:2px;
+    border-radius: 43px;
+    font-weight: 500;
+}
+.menu-items{
+
+}
+.navbar{
+    /*color: white;*/
+}
+.submit{
+    background-color: lightgray;
+}
+.icon{
+    display: none;
+}
+.home{
+    padding: 18px 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 35px;
+    color: white;
+    font-weight: bold;
+}
+.alignment{
+    padding: 20px;
+}
+/* Finishing of the styles of nav section */
