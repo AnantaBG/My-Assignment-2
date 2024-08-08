@@ -12,17 +12,17 @@ color: white;
 .main-topic{
     font-family:Inter;
     color: rgb(230, 83, 60);
-    font-size: 1.6rem;
+    /*font-size: 3.2vw;*/
+    font-size: 3.2rem;
     font-weight: bolder;
     /*height: 46px;*/
 
 }
 nav ul li{
     list-style: none;
-    font-size: 1rem;
+    /*font-size: 2vw;*/
+    font-size: 2rem;
     margin-right: 30px;
-    margin-left: 0%;
-    padding-left: 0%;
 }
 .navbar{
     display: flex;
@@ -30,6 +30,7 @@ nav ul li{
     margin: 57px 190px;
 }
 #items{
+    margin-top: 65px;
     display: flex;
     border: 1px solid #2a2a2a;
     padding-left: 4px;
@@ -44,19 +45,41 @@ nav ul li{
     /*color: white;*/
 }
 .submit{
-    background-color: lightgray;
+background-color: rgb(8, 8, 8);
+    border-color: transparent;
+    margin-top: 32px;
 }
 .icon{
     display: none;
 }
 .home{
-    padding: 18px 40px;
+    padding: 6px 20px;
     background: rgb(230, 83, 60);
     border-radius: 35px;
     color: white;
     font-weight: bold;
 }
 .alignment{
-    padding: 20px;
+    padding: 4px;
 }
 /* Finishing of the styles of nav section */
+/*Starting the Section for the Navbar Responsiveness for Mobile */
+@media screen and (max-width: 576px){
+    #items{
+        display: none;
+    }
+    .main-topic {
+        font-family: Inter;
+        color: rgb(230, 83, 60);
+        font-size: 36px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        margin: 52px 20px;
+    }
+    .icon{
+        display: contents;
+    }
+}
+/*Finishing the Section for the Navbar Responsiveness for Mobile */
