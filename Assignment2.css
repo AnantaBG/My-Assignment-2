@@ -5,7 +5,7 @@ background-color: black;
 color: white;
 }
 /* Starting of the styles of nav section */
-.First_part{
+#First_part{
       background: linear-gradient(0.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
   }
 /* navbar styles */
@@ -27,7 +27,9 @@ nav ul li{
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin: 57px 190px;
+    margin-top: 0px;
+    margin-left: 190px;
+    margin-right: 190px;
 }
 #items{
     margin-top: 65px;
@@ -83,3 +85,117 @@ background-color: rgb(8, 8, 8);
     }
 }
 /*Finishing the Section for the Navbar Responsiveness for Mobile */
+/*Starting the Section for the banner styles */
+/*banner description section*/
+.banner-description{
+    margin-top: -30px;
+    margin-left: 190px;
+    text-align: left;
+    max-width: 520px;
+}
+.banner-title{
+    font-size: 3.4rem;
+    font-weight: bolder;
+    line-height: 105px;
+    margin-bottom: 0px;
+}
+.special_font{
+    font-family : Miama , sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+.banner-title_descriptiption{
+    font-size: 1rem;
+    font-weight: normal;
+    opacity: 0.5;
+}
+.btn-primary{
+    margin-top: 44px;
+    background: rgb(230, 83, 60);
+    border-color: rgb(230, 83, 60);
+    border-radius: 100px;
+    padding: 16px 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btn{
+    margin-top: 44px;
+    margin-left: 10px;
+    background: black;
+    border-color: white;
+    border-radius: 100px;
+    padding: 16px 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+/*banner Image section*/
+.banner-image{
+    margin-left: 240px;
+}
+.btn-sec{
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-450px) translateX(240px);
+}
+.image_top-title{
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-right: 40px;
+    padding-left: 28px;
+    /*line-height: 1;*/
+}
+.image_top-title-desc{
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.6;
+    margin-top: 0;
+    padding-left: 5px;
+}
+.btn-third{
+
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-160px) translateX(-280px);
+}
+.circle{
+    background-color: rgb(230, 83, 60);
+    border-radius: 100px;
+    display: flex;
+    transform: translateY(25px) translatex(20px);
+
+}
+.image_bottom-title{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 0px;
+    line-height: 0;
+}
+.image_bottom-title-desc{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.4;
+    padding-right: 10px;
+    padding-left: 60px;
+    margin-top: 15px;
+
+}
+#banner{
+    display: flex;
+    }
+/* banner section finished */
