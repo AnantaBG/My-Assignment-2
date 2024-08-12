@@ -71,7 +71,7 @@ background-color: rgb(8, 8, 8);
         display: none;
     }
     .main-topic {
-        font-family: Inter;
+        font-family:Inter;
         color: rgb(230, 83, 60);
         font-size: 36px;
     }
@@ -83,6 +83,7 @@ background-color: rgb(8, 8, 8);
     .icon{
         display: contents;
     }
+
 }
 /*Finishing the Section for the Navbar Responsiveness for Mobile */
 /*Starting the Section for the banner styles */
@@ -98,6 +99,7 @@ background-color: rgb(8, 8, 8);
     font-weight: bolder;
     line-height: 105px;
     margin-bottom: 0px;
+    font-family: sans-serif;
 }
 .special_font{
     font-family : Miama , sans-serif;
@@ -199,3 +201,60 @@ background-color: rgb(8, 8, 8);
     display: flex;
     }
 /* banner section finished */
+@media screen and (max-width: 576px){
+    /*    Responsiveness of the banner part*/
+    .banner-description{
+        /*margin-top: 50px;*/
+        margin-left: 20px;
+        text-align: left;
+    }
+    .banner-title{
+        font-size: 2rem;
+        font-weight: bolder;
+        line-height: 60px;
+        font-family: sans-serif;
+    }
+    #banner{
+        display: grid;
+    }
+    .banner-image{
+       margin-left: 100px;
+        margin-top: 47px;
+        margin-right: 20px;
+    }
+    .btn-sec{
+        transform: translateY(-510px) translatex(190px);
+
+    }
+    .image_top-title {
+        font-size: 30px;
+        font-weight: 900;
+        margin-top: 12px;
+        margin-bottom: 0px;
+        padding-right: 30px;
+        padding-left: 10px;
+    }
+    .image_top-title-desc{
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+    .btn-third{
+        transform: translateY(-330px) translatex(-200px);
+    }
+    .hide{
+        display: none;
+    }
+    .btn-primary{
+        font-size: 22px;
+        font-family: sans-serif;
+        padding-left: 65px;
+        padding-right: 65px;
+        margin-left: 10px;
+    }
+    .btn{
+        font-size: 22px;
+        font-family: sans-serif;
+        margin-right: 10px;
+    }
+}
+/* Completion of Responsiveness of the banner part*/
