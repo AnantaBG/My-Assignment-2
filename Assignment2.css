@@ -368,3 +368,39 @@ background-color: rgb(8, 8, 8);
     }
 }
 /*Finished Responsive for Change your habits section*/
+/*Starting Css for Run an Extra mile easily Section*/
+.Run_Easily{
+    border: 1px solid black;
+    border-radius: 20px;
+    background: rgb(34, 34, 34);
+    margin-right: 190px;
+    margin-left: 190px;
+    padding-left: 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+
+}
+.second_sec-Title{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: left;
+
+}
+.second_sec_Title-Desc{
+    font-size: 1rem;
+    font-weight: normal;
+    opacity: 0.3;
+    text-align: left;
+    line-height: 25px;
+    margin-bottom: 0px;
+}
+.running{
+    /*padding: 25px 20px;*/
+    margin-left: 210px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-right: 40px;
+
+}
+/*Finishing Css for Run an Extra mile easily Section*/
