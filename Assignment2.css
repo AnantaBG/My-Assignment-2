@@ -361,6 +361,7 @@ background-color: rgb(8, 8, 8);
     .habits_image-desc{
         display: grid;
         transform: translateY(-1350px) translateX(10px);
+        margin-bottom: 0px;
     }
     .images_description{
         margin-right: 110px;
@@ -404,3 +405,35 @@ background-color: rgb(8, 8, 8);
 
 }
 /*Finishing Css for Run an Extra mile easily Section*/
+/*Starting Responsive Css for Run an Extra mile easily Section*/
+@media screen and (max-width: 576px){
+    .Run_Easily{
+        display: grid;
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: -20px;
+        padding-bottom: 20px;
+        margin-top: -1600px;
+    }
+    .second_sec-Title{
+        font-size: 4rem;
+        font-weight: bolder;
+        text-align: left;
+    }
+    .second_sec_Title-Desc{
+        font-size: 1.4rem;
+    }
+    .running{
+        margin-top: 80px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+    .btn-primary{
+        padding: 20px 150px;
+    }
+}
+/*Finishing of Responsiveness for Run an Extra mile easily Section*/
