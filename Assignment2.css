@@ -329,3 +329,42 @@ background-color: rgb(8, 8, 8);
     margin-top: -10px;
     margin-right: 20px;
 }
+/*Finishing of css change your habits Section*/
+/*Responsive for Change your habits section*/
+@media screen and (max-width: 576px){
+    .habits_section{
+        transform: translateY(-20px);
+    }
+    .habits{
+        margin-left: 20px;
+        text-align: left;
+        margin-right: 20px;
+    }
+    .habits-Title{
+        margin-left: 0px;
+        text-align: center;
+        margin-right: 0px;
+        font-size: 32px;
+        font-family: sans-serif;
+    }
+    .habits-title_desc{
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .habits_image{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .habits_images{
+        margin-bottom: 200px;
+    }
+    .habits_image-desc{
+        display: grid;
+        transform: translateY(-1350px) translateX(10px);
+    }
+    .images_description{
+        margin-right: 110px;
+        margin-left: 110px;
+    }
+}
+/*Finished Responsive for Change your habits section*/
