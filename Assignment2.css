@@ -445,6 +445,9 @@ background-color: rgb(8, 8, 8);
     margin-right: 190px;
     text-align: center;
 }
+.Unique_Section-details{
+    transform: translateY(40px);
+}
 .Unique_Section-Title{
     font-size: 3rem;
     font-weight: bolder;
@@ -457,7 +460,7 @@ background-color: rgb(8, 8, 8);
     margin-right: 140px;
 }
 .btn-align{
-    transform: translateY(1800px);
+    transform: translateY(1200px) translateX(-75px);
 }
 .Unique_Section-Images{
     display: grid;
@@ -485,6 +488,12 @@ background-color: rgb(8, 8, 8);
 }
 .Six{
     transform: translateY(30px);
+}
+.One{
+    transform: translateY(-20px);
+}
+.Two{
+    transform: translateY(-20px);
 }
 .Desc{
     font-size: 0.6rem;
@@ -517,3 +526,98 @@ transform: translateX(20px);
     transform: translateY(-2150px);
 }
 /*Finishing Css of a Unique Section*/
+/*Starting Responsive Css of a Unique Section*/
+@media screen and (max-width: 576px){
+    .Healthy_diet{
+        margin-left: 40px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .Unique_Section-Title{
+        font-size: 3rem;
+        font-weight: bolder;
+        line-height: 0px;
+    }
+    .Unique_Section-Title_Desc{
+        font-size: 1.25rem;
+        opacity: 0.4;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .btn-align{
+        transform: translateY(2250px);
+    }
+    .Unique_Section-Images{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .Healthy-food{
+        margin-left: 100px;
+        /*margin-bottom: 130px;*/
+        margin-right: -1000px;
+    }
+    .Unique_Section-Images_Title{
+        display: block;
+        /*grid-template-columns: 1fr 1fr;*/
+        line-height: 300px;
+        transform: translateY(-2170px) translateX(20px);
+    }
+    .Titles{
+        /*color: black;*/
+        font-size: 2rem;
+        font-family: Inter;
+    }
+    .Three{
+        transform: translateY(50px)
+    }
+    .Four{
+        transform: translateY(80px)
+    }
+    .Five{
+        transform: translateY(170px);
+    }
+    .Six{
+        transform: translateY(260px);
+    }
+    .One{
+        transform: translateY(-20px);
+    }
+    .Two{
+        transform: translateY(-20px);
+    }
+    .Desc{
+        font-size: 0.6rem;
+        opacity: 0.6;
+        text-align: center;
+
+    }
+    .one{
+        transform: translateY(140px)translateX(83px);
+        margin-right: 0px;
+    }
+    .two{
+        transform: translateY(390px)translateX(83px);
+    }
+    .three{
+        transform: translateY(695px) translateX(83px);
+    }
+    .four{
+        transform: translateY(975px) translateX(83px);
+    }
+    .five{
+        transform: translateY(1315px) translateX(83px);
+    }
+    .six{
+        transform: translateY(1660px) translateX(83px);
+    }
+    .Unique_Section-Images_Desc{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: -150px;
+        margin-right: 55px;
+        line-height: 30px;
+        transform: translateY(-4120px);
+        opacity: 0.9;
+    }
+}
+/*Finishing Responsive Css of a Unique Section*/
