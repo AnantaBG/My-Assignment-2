@@ -762,3 +762,72 @@ transform: translateX(20px);
     }
 }
 /*Finishing Responsive css for BMI section*/
+/*Starting Css for Meet team Section*/
+.Meet_team_details{
+    text-align: center;
+}
+.Meet_team_Title{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.Meet_team_Title_desc{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.team_images{
+    border: 1px solid black;
+    border-radius: 20px;
+    background: rgb(34, 34, 34);
+    margin-right: 290px;
+    margin-left: 290px;
+    padding-left: 50px;
+    display: flex;
+}
+.Meet_team_images{
+    padding: 40px 0px;
+}
+.gap{
+    padding: 10px;
+}
+.title1{
+    transform: translateX(370px) translateY(-410px);
+}
+.title2{
+    transform: translateX(640px) translateY(-460px);
+}
+.title3{
+    transform: translateX(910px) translateY(-510px);
+}
+.title4{
+    transform: translateX(370px) translateY(-280px);
+}
+.title5{
+    transform: translateX(640px) translateY(-330px);
+}
+.title6{
+    transform: translateX(910px) translateY(-380px);
+}
+.desc1{
+    transform: translateX(370px) translateY(-660px);
+    opacity: 0.6;
+}
+.desc2{
+    transform: translateX(640px) translateY(-700px);
+    opacity: 0.6;
+}
+.desc3{
+    transform: translateX(910px) translateY(-740px);
+    opacity: 0.6;
+}
+.desc4{
+    transform: translateX(370px) translateY(-495px);
+    opacity: 0.6;
+}
+.desc5{
+    transform: translateX(640px) translateY(-535px);
+    opacity: 0.6;
+}
+.desc6{
+    transform: translateX(910px) translateY(-575px);
+}
+/*Finishing Css for Meet team Section*/
