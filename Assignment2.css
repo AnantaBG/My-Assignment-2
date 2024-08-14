@@ -717,4 +717,48 @@ transform: translateX(20px);
     padding-left: 80px;
 }
 /*Finishing the css for BMI section*/
+/*Starting Responsive css for BMI section*/
+@media screen and (max-width: 576px){
+.BMI{
+    display: grid;
+}
+    .BMI-chart{
+        margin-right: 0px;
+        margin-left: 0px;
+        /*align-content: flex-start;*/
+    }
+    .BMI-chart_Table{
+        margin-left: -130px;
+    }
+    .BMI-chart_details{
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    .Table-Header{
+        text-align: left;
+        width: 160px;
+    }
+    .Table-Data{
+        text-align: left;
+    }
+    .BMI-Form_Title{
+        text-align: left;
+    }
+    .BMI-Form_Title_desc{
+        margin-right: 10px;
+    }
+    .form{
 
+        width: 150px;
+    }
+    .flex1{
+        margin-right: 0px;
+    }
+    .sex{
+        width: 213px;
+    }
+    .big_form{
+        width: 442px;
+    }
+}
+/*Finishing Responsive css for BMI section*/
