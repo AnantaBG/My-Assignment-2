@@ -16,15 +16,12 @@ color: white;
 .main-topic{
     font-family:Inter;
     color: rgb(230, 83, 60);
-    /*font-size: 3.2vw;*/
     font-size: 3.2rem;
     font-weight: bolder;
-    /*height: 46px;*/
 
 }
 nav ul li{
     list-style: none;
-    /*font-size: 2vw;*/
     font-size: 2rem;
     margin-right: 30px;
 }
@@ -46,9 +43,6 @@ nav ul li{
 }
 .menu-items{
 
-}
-.navbar{
-    /*color: white;*/
 }
 .submit{
 background-color: rgb(8, 8, 8);
@@ -208,7 +202,6 @@ background-color: rgb(8, 8, 8);
 @media screen and (max-width: 576px){
     /*    Responsiveness of the banner part*/
     .banner-description{
-        /*margin-top: 50px;*/
         margin-left: 20px;
         text-align: left;
     }
@@ -268,10 +261,6 @@ background-color: rgb(8, 8, 8);
     margin-right: 185px;
 
 }
-/*.habits_details{*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
 .habits-Title{
     font-size: 3.6rem;
     font-weight: bolder;
@@ -312,7 +301,6 @@ background-color: rgb(8, 8, 8);
     text-align: center;
 }
 .images-title{
-    /*margin-left: 100px;*/
     text-align: center;
     justify-content: space-around;
     font-size: 1.5rem;
@@ -399,7 +387,6 @@ background-color: rgb(8, 8, 8);
     margin-bottom: 0px;
 }
 .running{
-    /*padding: 25px 20px;*/
     margin-left: 210px;
     border: 1px solid black;
     border-radius: 25px;
@@ -480,7 +467,6 @@ background-color: rgb(8, 8, 8);
     transform: translateY(-1070px) translateX(20px);
 }
 .Titles{
-    /*color: black;*/
     font-size: 3rem;
     font-family: Inter;
 }
@@ -555,17 +541,14 @@ transform: translateX(20px);
     }
     .Healthy-food{
         margin-left: 100px;
-        /*margin-bottom: 130px;*/
         margin-right: -1000px;
     }
     .Unique_Section-Images_Title{
         display: block;
-        /*grid-template-columns: 1fr 1fr;*/
         line-height: 300px;
         transform: translateY(-2170px) translateX(20px);
     }
     .Titles{
-        /*color: black;*/
         font-size: 2rem;
         font-family: Inter;
     }
@@ -624,10 +607,6 @@ transform: translateX(20px);
 }
 /*Finishing Responsive Css of a Unique Section*/
 /*Starting css for BMI section*/
-.BMI-calculator{
-    /*margin-right: 190px;*/
-    /*margin-left: 190px;*/
-}
 .BMI_details{
     text-align: center;
 }
@@ -642,10 +621,7 @@ transform: translateX(20px);
 }
 .BMI{
     border: 1px solid black;
-    /*border-radius: 20px;*/
     background: rgb(34, 34, 34);
-    /*margin-right: -190px;*/
-    /*margin-left: -190px;*/
     padding-left: 50px;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -656,7 +632,6 @@ transform: translateX(20px);
     margin-right: 380px;
 }
 .BMI-chart_details{
-    /*text-align: left;*/
     font-size: 1.5rem;
 }
 .Table-Header{
@@ -680,7 +655,7 @@ transform: translateX(20px);
 .BMI-Form_Title_desc{
     font-size: 1rem;
     font-weight: lighter;
-    text-align: left;
+    text-align: center;
     opacity: 0.5;
 }
 
@@ -725,7 +700,6 @@ transform: translateX(20px);
     .BMI-chart{
         margin-right: 0px;
         margin-left: 0px;
-        /*align-content: flex-start;*/
     }
     .BMI-chart_Table{
         margin-left: -130px;
@@ -790,68 +764,91 @@ transform: translateX(20px);
     padding: 10px;
 }
 .title1{
-    transform: translateX(370px) translateY(-410px);
+    transform: translateY(-410px);
+    padding-left: 370px;
 }
 .title2{
-    transform: translateX(640px) translateY(-460px);
+    transform: translateY(-460px);
+    padding-left: 640px;
 }
 .title3{
-    transform: translateX(910px) translateY(-510px);
+    transform:translateY(-510px);
+    padding-left: 910px;
 }
 .title4{
-    transform: translateX(370px) translateY(-280px);
+    transform: translateY(-280px);
+    padding-left: 370px;
 }
 .title5{
-    transform: translateX(640px) translateY(-330px);
+    transform:translateY(-330px);
+    padding-left: 640px;
 }
 .title6{
-    transform: translateX(910px) translateY(-380px);
+    transform: translateY(-380px);
+    padding-left: 910px;
 }
 .desc1{
-    transform: translateX(370px) translateY(-660px);
+    transform: translateY(-660px);
+    padding-left: 370px;
     opacity: 0.6;
 }
 .desc2{
-    transform: translateX(640px) translateY(-700px);
-    opacity: 0.6;
+    transform: translateY(-700px);
+    padding-left: 640px;
+    opacity: 0.9;
 }
 .desc3{
-    transform: translateX(910px) translateY(-740px);
+    transform: translateY(-740px);
+    padding-left: 910px;
     opacity: 0.6;
 }
 .desc4{
-    transform: translateX(370px) translateY(-495px);
+    transform: translateY(-495px);
+    padding-left: 370px;
     opacity: 0.6;
 }
 .desc5{
-    transform: translateX(640px) translateY(-535px);
+    transform: translateY(-535px);
+    padding-left: 640px;
     opacity: 0.6;
 }
 .desc6{
-    transform: translateX(910px) translateY(-575px);
+    transform: translateY(-575px);
+    padding-left: 910px;
+    opacity: 0.6;
 }
 /*Finishing Css for Meet team Section*/
 /*Starting Responsive Css for Meet team Section*/
 @media screen and (max-width: 576px){
-    .Meet_team_section{
-        max-width: 360px;
-        padding: 15px 15px;
-    }
     .team_images{
         display: grid;
-        margin-right: 40px;
-        margin-left: 40px;
-        padding-left: 10px;
-        /*object-fit: cover;*/
+        grid-template-columns: repeat(1, 1fr);
+        margin-right: -7px;
+        margin-left: -10px;
     }
     .Meet_team_images{
+        display: grid;
         margin: 0px;
         padding: 0px;
     }
     .gap{
-        padding: 5px;
-        padding-top: 20px;
-        padding-bottom: 30px;
+        padding-left: 90px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+    .iamge1{
+        padding-top: 80px;
+    }
+    .iamge2{
+        padding-top: 40px;
+    }
+    .iamge3{
+        padding-top: 40px;
+    }
+    .iamge4{
+        padding-top: 40px;
+        padding-bottom: 80px;
     }
     .image5{
         display: none;
@@ -859,17 +856,27 @@ transform: translateX(20px);
     .image6{
         display: none;
     }
+    .title{
+        display: grid;
+        grid-template-rows: repeat(1);
+        padding: 0;
+        margin: 0;
+    }
     .title1{
-       transform: translateX(70px) translateY(-1040px);
+        transform: translateY(-1040px);
+        padding-left: 150px;
     }
     .title2{
-        transform: translateX(70px) translateY(-780px);
+        transform: translateY(-775px);
+        padding-left: 150px;
     }
     .title3{
-        transform: translateX(70px) translateY(-520px);
+        padding-left: 150px;
+        padding-top: 10px;
     }
     .title4{
-        transform: translateX(70px) translateY(-260px);
+        padding-left: 150px;
+        padding-top: 50px;
     }
     .title5{
         display: none;
@@ -878,16 +885,20 @@ transform: translateX(20px);
         display: none;
     }
     .desc1{
-        transform: translateX(70px) translateY(-1190px);
+        transform: translateY(-1200px);
+        padding-left: 150px;
     }
     .desc2{
-        transform: translateX(70px) translateY(-920px);
+        transform: translateY(-945px);
+        padding-left: 150px;
     }
     .desc3{
-        transform: translateX(70px) translateY(-650px);
+        padding-left: 150px;
+        padding-top: 65px;
     }
     .desc4{
-        transform: translateX(70px) translateY(-380px);
+        padding-left: 150px;
+        padding-top: 20px;
     }
     .desc5{
         display: none;
