@@ -571,7 +571,7 @@ transform: translateX(20px);
         transform: translateY(-20px);
     }
     .Desc{
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         opacity: 0.6;
         text-align: center;
 
@@ -632,7 +632,11 @@ transform: translateX(20px);
     justify-content: space-around;
 }
 .BMI-chart{
-    margin-right: 380px;
+    margin-right: 300px;
+}
+.BMI-chart_Title{
+    font-size: 1.8rem;
+    line-height: 100px;
 }
 .BMI-chart_details{
     font-size: 1.5rem;
@@ -653,13 +657,15 @@ transform: translateX(20px);
 .BMI-Form_Title{
     font-size: 2rem;
     font-weight: bolder;
-    text-align: center;
+    text-align: left;
+    margin-left: 10px;
 }
 .BMI-Form_Title_desc{
     font-size: 1rem;
     font-weight: lighter;
-    text-align: center;
+    text-align: left;
     opacity: 0.5;
+    margin-left: 10px;
 }
 
 .form{
@@ -704,6 +710,9 @@ transform: translateX(20px);
         margin-right: 0px;
         margin-left: 0px;
     }
+    .BMI-chart_Title{
+        margin-left: 10px;
+    }
     .BMI-chart_Table{
         margin-left: -130px;
     }
@@ -723,6 +732,8 @@ transform: translateX(20px);
     }
     .BMI-Form_Title_desc{
         margin-right: 10px;
+        margin-left: 10px;
+        text-align: left;
     }
     .form{
 
@@ -753,6 +764,7 @@ transform: translateX(20px);
 .Meet_team_Title_desc{
     font-size: 1rem;
     font-weight: lighter;
+    opacity: 0.5;
 }
 .team_images{
     border: 1px solid black;
@@ -951,7 +963,7 @@ transform: translateX(20px);
     text-align: left;
 }
 .hr{
-    opacity: 0.3;
+    opacity: 0.2;
 }
 /*Finished Css for Contacts Section*/
 /*Starting Responsiveness for Contacts Section*/
