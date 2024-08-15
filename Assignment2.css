@@ -909,3 +909,59 @@ transform: translateX(20px);
 
 }
 /*Finished Responsive Css for Meet team Section*/
+/*Starting Css for Contacts Section*/
+.contact-details{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+.contact-desc{
+    max-width: 440px;
+}
+.contact-desc_title_descript{
+    font-size: 1rem;
+    opacity: 0.4;
+    text-align: left;
+    font-weight: lighter;
+}
+.Get-started1{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: left;
+}
+.list{
+    padding-left: 35px;
+}
+.items{
+    list-style: none;
+    opacity: 0.6;
+    line-height: 45px;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: left;
+}
+.hr{
+    opacity: 0.3;
+}
+/*Finished Css for Contacts Section*/
+/*Starting Responsiveness for Contacts Section*/
+@media screen and (max-width: 576px){
+    .contact-details{
+        display: grid;
+        margin-left: 20px;
+        margin-right: 20px;
+        /*justify-content: flex-start;*/
+    }
+    .contact-desc_title{
+        font-size: 5rem;
+
+    }
+    .contact-desc_title_descript{
+        font-size: 1.5rem;
+    }
+    .Get-started1{
+        margin-left: -35px;
+    }
+}
+/*Finished Responsiveness for Contacts Section*/
