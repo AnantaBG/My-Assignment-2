@@ -607,6 +607,9 @@ transform: translateX(20px);
 }
 /*Finishing Responsive Css of a Unique Section*/
 /*Starting css for BMI section*/
+.BMI-calculator{
+    transform: translateY(50px);
+}
 .BMI_details{
     text-align: center;
 }
@@ -737,6 +740,9 @@ transform: translateX(20px);
 }
 /*Finishing Responsive css for BMI section*/
 /*Starting Css for Meet team Section*/
+.Meet_team_section{
+    transform: translateY(150px);
+}
 .Meet_team_details{
     text-align: center;
 }
@@ -910,6 +916,9 @@ transform: translateX(20px);
 }
 /*Finished Responsive Css for Meet team Section*/
 /*Starting Css for Contacts Section*/
+/*.Contacts\&Copyright{*/
+/*    transform: translateY(-400px);*/
+/*}*/
 .contact-details{
     display: flex;
     justify-content: space-around;
@@ -947,11 +956,11 @@ transform: translateX(20px);
 /*Finished Css for Contacts Section*/
 /*Starting Responsiveness for Contacts Section*/
 @media screen and (max-width: 576px){
+
     .contact-details{
         display: grid;
         margin-left: 20px;
         margin-right: 20px;
-        /*justify-content: flex-start;*/
     }
     .contact-desc_title{
         font-size: 5rem;
@@ -965,3 +974,22 @@ transform: translateX(20px);
     }
 }
 /*Finished Responsiveness for Contacts Section*/
+/*Starting Css for Copyright section*/
+.Copyright{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    opacity: 0.5;
+    text-align: left;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 40px;
+}
+/*Finished Css for Copyright section*/
+/*Starting Responsive Css for Copyright section*/
+@media screen and (max-width: 576px){
+    .Copyright{
+        font-size: 1rem;
+        margin-left: 40px;
+        margin-right: 0px;
+    }
+}
